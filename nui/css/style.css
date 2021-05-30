@@ -4,7 +4,7 @@ body {
     background-image: url(../media/map.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* display: none; */
+    display: none;
 }
 
 /* GLOBAL SHIT */
