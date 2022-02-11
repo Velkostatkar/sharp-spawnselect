@@ -1,16 +1,8 @@
-local ESX, selectedspawnposition = nil
+local QBCore = exports['qb-core']:GetCoreObject()
 local spawn = nil
 local LastLocation = nil
 
-Citizen.CreateThread(function()
-	while ESX == nil do
-		TriggerEvent('esx:getSharedObject', function(obj)
-			ESX = obj
-        end)
-        
-		Citizen.Wait(0)
-	end
-end)
+
 
 local camZPlus1 = 1500
 local camZPlus2 = 50
